@@ -1,2 +1,2 @@
-# Locate-em
+# LocateMe
 Get Your Victim's Location, Organization, Co-ordinates and more...
