@@ -1,2 +1,2 @@
 # LocateMe
-Get Your Victim's Location, Organization, Co-ordinates and more...
+Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
