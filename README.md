@@ -29,7 +29,7 @@ Be sure to check out the Changelog <https://github.com/v1s1t0r999/LocateMe/CHANG
 ## :moneybag: How to contribute :moneybag:
 All contributions are welcomed! Code, documentation, graphics or even design suggestions are welcomed; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
 *** ***
-- Donate: <LINK-TO-BE-MADE>  
+- Donate: <<LINK-TO-BE-MADE>>  
 - ***Also you'll be gifted a "Virtual Voice Assistant" from us.***
 ##
 ## :warning: Requirements :warning:
