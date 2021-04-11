@@ -20,6 +20,7 @@ If you want to request a feature, do so by submitting a Pull Request only.
 - **ASN Number** (Already created but is facing some bugs, so not included in `v1.0.0`).
 - **Browser Info** (Same as ASN Number problem).
 - **Aerial View Using Google Maps or other Alternative.**
+- **Gnoe-Terminal Support**
 
 ##
 ## :page_facing_up: Changelog :page_facing_up:
@@ -33,12 +34,13 @@ All contributions are welcomed! Code, documentation, graphics or even design sug
 - ***Also you'll be gifted a "Virtual Voice Assistant" from us.***
 ##
 ## :warning: Requirements :warning:
-A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `LocateMe` needs some tools and mosdules to work:
+A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `LocateMe` needs some tools and modules to work:
   - `Python3.5+`
   - `Selenium Module`
   - `Xterm` (Support for gnome-terminal will come in future updates)
   - `FigLet` (Needed for those amazing Ascii's)
   - `Lolcat` (Needed to give an awesome look to the Ascii's)
+
 **Nevertheless, `LocateMe` will automatically check and install these tools on startup😄**
 
 
