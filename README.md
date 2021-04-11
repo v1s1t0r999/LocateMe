@@ -12,13 +12,14 @@ If u have some doubt, Please 'DO NOT' create an Issue, instead ask your doubt in
 ##
 ## :outbox_tray: Updates :outbox_tray:
 If you want to request a feature, do so by submitting a Pull Request only.
-Future Updates May Include:
-- Find Your Victim's IPv4(if you don't know).
+
+**Future Updates May Include:**
+- **Find Your Victim's IPv4(if you don't know).**
    - Eg:- If you have a discord friend and you want to know his location (which he obviously is not telling you!!), you can send him the generated link and then use `LocateMe` and find out his location.
-- Windows Support(It can made now using `py2exe` but there are some Unix-CMD commands which should be replaced).
-- ASN Number (Already created but is facing some bugs, so not included in `v1.0.0`).
-- Browser Info (Same as ASN Number problem).
-- Aerial View Using Google Maps or other Alternative.
+- **Windows Support**(It can made now using `py2exe` but there are some Unix-CMD commands which should be replaced).
+- **ASN Number** (Already created but is facing some bugs, so not included in `v1.0.0`).
+- **Browser Info** (Same as ASN Number problem).
+- **Aerial View Using Google Maps or other Alternative.**
 
 ##
 ## :page_facing_up: Changelog :page_facing_up:
