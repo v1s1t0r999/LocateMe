@@ -15,7 +15,7 @@ If you want to request a feature, do so by submitting a Pull Request only. We ca
 ##
 ## :page_facing_up: Changelog :page_facing_up:
 `LocateMe` gets frequent updates with new features, improvements and bugfixes.
-Be sure to check out the Changelog <https://github.com/v1s1t0r999/LocateMe/CHANGELOG>.
+Be sure to check out the Changelog <https://github.com/v1s1t0r999/LocateMe/CHANGELOG.md>.
 ##
 ## :moneybag: How to contribute :moneybag:
 All contributions are welcomed! Code, documentation, graphics or even design suggestions are welcomed; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
