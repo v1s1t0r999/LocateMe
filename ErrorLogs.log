@@ -1,0 +1,33 @@
+LocateMe v1.0.0
+
+
+Author: @v1s1t0r999
+Github: https://www.github.com/v1s1t0r999/LocateMe
+Discord: v1s1t0r999#9945
+
+||FEEL FREE TO CONTACT||
+
+  ________________________________________________________________
+<<---------------------------------------------------------------->>
+  ----------------------------------------------------------------
+
+
+{*} BUG REPORT
+==>> When Reporting a bug or a run-time error, please follow the Bug template and add this Error Log as an attachment.
+
+
+{*} LocateMe Error Logs:
+
+[DATE @ TIME] >> Error Details.
+
+[11/04/21 @ 11:51] >> Keyboard Interrupt.
+[11/04/21 @ 11:51] >> HTTPSConnectionPool(host='www.github.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f19926f5eb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')).
+[11/04/21 @ 11:52] >> HTTPSConnectionPool(host='www.github.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7f4b209f1eb0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')).
+[11/04/21 @ 11:56] >> Message: Given xpath expression "" is invalid: SyntaxError: The expression is not a legal expression.
+.
+[11/04/21 @ 11:56] >> Message: Given xpath expression "" is invalid: SyntaxError: The expression is not a legal expression.
+.
+[11/04/21 @ 11:56] >> Keyboard Interrupt.
+[11/04/21 @ 11:56] >> local variable 'driver' referenced before assignment.
+[11/04/21 @ 12:00] >> local variable 'f' referenced before assignment.
+[11/04/21 @ 12:08] >> Keyboard Interrupt.
