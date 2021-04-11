@@ -1,15 +1,19 @@
 #!/usr/bin/env python
 
+# Author: @v1s1t0r999
+# GREATLY INSPIRED FROM @thelinuxchoice
+# Repo: LocateMe v1.0.0
+
+# I need your help Users, please see the Credits option in LocateMe for more.
+
 """
-> Add herewego.com
-> Full screen for herewego in selenium
-/> Invisible xterm window
-!> IPv4 to IPv6 in option 2
-!> Add IPv4
-!> Fix 'sh: 1: Unquoted blah...blah...' in option 1[findIP()]
-!> Main menu option 5::TBM
-!> Main Menu option 6::TBM
+With Love, from @v1s1t0r999:
+  I didn't like @thelinuxchoice writing "Don't copy the codes without giving me the credits nerd!!" in the starting of his every tool,
+  But its True, cause when you do so much but at the end, u get nothing except seeing others eating the credits of your hardwork.
+
+  THANKS A LOT @thelinuxchoice for a Precious Indirect Help.
 """
+
 
 # Imports
 import os
@@ -55,7 +59,7 @@ def StartAnim():
 	print("\033[;1mCLOSE YOUR EYES FROM {*_*} TO {>_<} BAD BOY!!".center(width))
 	print(" ")
         #animation = ["10%", "20%", "30%", "40%", "50%", "60%", "70%", "80%", "90%", "100%"]
-	animation = ["[■■□□□□□□□□□□□□□□□□□□]","[■■■■□□□□□□□□□□□□□□□□]", "[■■■■■■□□□□□□□□□□□□□□]", "[■■■■■■■■□□□□□□□□□□□□]", "[■■■■■■■■■■■■■■■■■■■■■■■■■■]"]
+	animation = ["[■■□□□□□□□□□□□□□□□□□□]->10%","[■■■■□□□□□□□□□□□□□□□□]->20%", "[■■■■■■□□□□□□□□□□□□□□]->30%", "[■■■■■■■■□□□□□□□□□□□□]->40%", "[■■■■■■■■■■□□□□□□□□□□]->50%", "[■■■■■■■■■■■■□□□□□□□□]->60%", "[■■■■■■■■■■■■■■□□□□□□]->70%", "[■■■■■■■■■■■■■■■■□□□□]->80%", "[■■■■■■■■■■■■■■■■■■□□]->90", "[■■■■■■■■■■■■■■■■■■■■]->100%"]
 	for i in range(len(animation)):
 		time.sleep(int(random.choice(secs)))
 		sys.stdout.write("\r" + animation[i % len(animation)].center(width))
