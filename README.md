@@ -11,11 +11,11 @@ If u have some doubt, Please 'DO NOT' create an Issue, instead ask your doubt in
 4. ``` python3 LocateMe.py```
 ##
 ## :outbox_tray: Updates :outbox_tray:
-If you want to request a feature, do so by submitting a Pull Request only. We can't make daily changes to `XploitMe`.
+If you want to request a feature, do so by submitting a Pull Request only. We can't make daily changes to `LocateMe`.
 ##
 ## :page_facing_up: Changelog :page_facing_up:
-`XploitMe` gets frequent updates with new features, improvements and bugfixes.
-Be sure to check out the Changelog <https://github.com/v1s1t0r999/XploitMe/wiki/changelog>.
+`LocateMe` gets frequent updates with new features, improvements and bugfixes.
+Be sure to check out the Changelog <https://github.com/v1s1t0r999/LocateMe/CHANGELOG>.
 ##
 ## :moneybag: How to contribute :moneybag:
 All contributions are welcomed! Code, documentation, graphics or even design suggestions are welcomed; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
