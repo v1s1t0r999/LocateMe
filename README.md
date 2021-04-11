@@ -1,7 +1,6 @@
 # LocateMe
 Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
 #
-
 If u have some doubt, Please 'DO NOT' create an Issue, instead ask your doubt in the Discussion section <https:/github.com/v1s1t0r999/LocateMe/discussions>. And be sure to mark the one’s comment as an answer if it helps you in resolving your question — they deserve the damn credit!! :tada:  
 ##
 ### Also, Do join our Discord server: <https://discord.gg/5FtvrR3ryG> 
