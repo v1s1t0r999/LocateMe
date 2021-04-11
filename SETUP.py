@@ -46,10 +46,24 @@ def selenium():
             return ask
     except ConnectionError as ce:
         #print(ce)
+        f = open("ErrorLogs.log","a")
+        f.write("["+str(date)+"] >> {SETUP} "+str(ce)+".\n")
+        print("")
         print("{!} No Internet Connection")
         print("{*} Exiting...")
         time.sleep(2)
         quit()
+        
+    except KeyboardInterrupt as ke:
+        f = open('ErrorLogs.log', 'a')
+        f.write("\n["+str(date)+"] >> {SETUP} "+str(ke)+"Keyboard Interrupt.")
+        f.close()
+        print("\n\033[1;92m{\033[1;93m!\033[1;92m} \033[1;96mKeyboard Interrupt Detected!!")
+        time.sleep(2)
+        print("\033[1;92m{\033[1;93m*\033[1;92m} \033[1;96mExiting...")
+        time.sleep(3)
+        quit()
+
         
 def main():
     os.system("apt-get install lolcat figlet xterm && pip install selenium")
