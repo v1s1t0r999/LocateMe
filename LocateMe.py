@@ -53,7 +53,6 @@ def goAsk():
 def StartAnim():
 	os.system("clear")
 	print(" ")
-	print("DATE: "+str(date))
 	print('\033[;1m{!} PLEASE WAIT WHILE "LocateMe" CHANGES IT CLOTHES...'.center(width))
 	print(" ")
 	print("\033[;1mCLOSE YOUR EYES FROM {*_*} TO {>_<} BAD BOY!!".center(width))
