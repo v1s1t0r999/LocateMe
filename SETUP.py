@@ -68,11 +68,17 @@ def selenium():
 
 
 def main():
-    os.system("apt-get install lolcat figlet xterm && pip install selenium")
+    print("\n {*} Installing Dependencies...")
+    os.system("apt-get install lolcat figlet xterm wmctrl && pip install selenium")
     ASK = input("\033[1m{?} START LocateMe [Y/N]: \033[0m")
     if ASK == "Y"or"y":
         os.system("python3 LocateMe.py")
         quit()
+    elif ASK == "N"or"n":
+        print("{*} Exiting...")
+        time.sleep(2)
+        quit()
+    
     else:
         print("{*} Exiting...")
         time.sleep(2)
