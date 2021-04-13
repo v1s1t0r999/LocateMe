@@ -1,4 +1,4 @@
-[![Github All Releases](https://img.shields.io/github/downloads/v1s1t0r999/LocateMe/total.svg)]()
+[![Github All Releases](https://img.shields.io/github/downloads/v1s1t0r1sh3r3/airgeddon/total.svg)]()
 # LocateMe
 Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
 #
