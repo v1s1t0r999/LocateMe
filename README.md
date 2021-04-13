@@ -1,4 +1,3 @@
-[![Github All Releases](https://img.shields.io/github/downloads/v1s1t0r999/LocateMe/total.svg)]()
 # LocateMe
 Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
 #
