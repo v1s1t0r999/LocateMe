@@ -55,7 +55,7 @@ A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `
 ## :phone: Contact Us :phone:
 
 - v1s1t0r999
-1. Discord: `v1s1t0r999#9945` || Do join our Discord server: <https://discord.gg/https://discord.gg/5FtvrR3ryG>
+1. Discord: `v1s1t0r999#9945` || Do join our Discord server: <https://discord.gg/5FtvrR3ryG>
 2. Email At: [aditya.funs.11@gmail.com]
 3. Github: <https://github.com/v1s1t0r999>
 
