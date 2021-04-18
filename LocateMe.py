@@ -84,6 +84,16 @@ def Ascii():
 		print("\033[1;91m || I'M GONNA FIND YOU FROM THAT BASEMENT TOO || \033[0m".center(width))
 		print(" ")
 		print(" ")
+		path = os.getcwd()
+		if os.path.exists(path+"/geckodriver"):
+			os.system("cp geckodriver /usr/local/bin 2>&1 &")
+			pass
+		else:
+			os.system("wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz 2>&1 &")
+			os.system("tar -xvf geckodriver-v0.29.1-linux32.tar.gz 2>&1 &")
+			os.system("rm geckodriver-v0.29.1-linux32.tar.gz")
+			os.system("cp geckodriver /usr/local/bin 2>&1 &")
+			gechk()
 		NetCheck()
 
 	except Exception as e:
