@@ -86,13 +86,13 @@ def Ascii():
 		print(" ")
 		path = os.getcwd()
 		if os.path.exists(path+"/geckodriver"):
-			os.system("cp geckodriver /usr/local/bin 2>&1 &")
+			os.system("cp geckodriver /usr/local/bin /dev/null")
 			NetCheck()
 		else:
-			os.system("wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz 2>&1 &")
-			os.system("tar -xvf geckodriver-v0.29.1-linux32.tar.gz 2>&1 &")
+			os.system("wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz /dev/null")
+			os.system("tar -xvf geckodriver-v0.29.1-linux32.tar.gz dev/null")
 			os.system("rm geckodriver-v0.29.1-linux32.tar.gz")
-			os.system("cp geckodriver /usr/local/bin 2>&1 &")
+			os.system("cp geckodriver /usr/local/bin /dev/null")
 			NetCheck()
 		#NetCheck()
 
@@ -379,6 +379,7 @@ def findIP():
 
 
 if __name__ == "__main__":
+	os.system("wmctrl -r ':ACTIVE:' -b toggle,fullscreen /dev/null")
 	try:
 		StartAnim()
 
