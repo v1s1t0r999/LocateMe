@@ -1,4 +1,16 @@
 # LocateMe
+
+- **License:** [![GitHub license](https://img.shields.io/github/license/v1s1t0r999/LocateMe.svg)](https://github.com/v1s1t0r999/LocateMe/blob/master/LICENSE) 
+- **STARS:** [![GitHub stars](https://img.shields.io/github/stars/v1s1t0r999/LocateMe.svg?style=social&label=Star&maxAge=2592000)](https://GitHub.com/v1s1t0r999/LocateMe/stargazers/)
+- **ISSUES:** [![GitHub issues](https://img.shields.io/github/issues/v1s1t0r999/LocateMe.svg)](https://GitHub.com/v1s1t0r999/LocateMe/issues/)
+- **Pull Requests:** [![GitHub pull-requests](https://img.shields.io/github/issues-pr/v1s1t0r999/LocateMe.svg)](https://GitHub.com/v1s1t0r999/LocateMe/pull/) | [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+- **I'm a [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103)](https://github.com/ellerbrock/open-source-badges/) Lover**
+- **SERVER:** [![Support Server](https://img.shields.io/discord/591914197219016707.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/5FtvrR3ryG)  
+- **Tis' Me:**
+ 
+ [![github streak](https://github-readme-streak-stats.herokuapp.com/?user=v1s1t0r999&theme=blue-green)](https://github.com/v1s1t0r999/github-readme-streak-stats)
+
+
 Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
 #
 **🙏🏻PLEASE BOTHER TO GIVE A 🌟STAR🌟 SO THERE'S AT LEAST SOMETHING TO MOTIVATE ME🙏🏻**
