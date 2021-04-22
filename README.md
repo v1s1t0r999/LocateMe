@@ -1,8 +1,6 @@
 # LocateMe
 [![version](https://img.shields.io/badge/LocateMe-V1.0.0-blue.svg?style=for-the-badge&color=000000)](https://github.com/v1s1t0r999/LocateMe/releases/tag/v1.0.0)    [![made-with-python](https://img.shields.io/badge/PURE-PYTHON3.5+-blue.svg?style=for-the-badge&logo=python&color=0000FF)](https://www.python.org/)    [![GitHub license](https://img.shields.io/github/license/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=orange&logo=license)](https://github.com/v1s1t0r999/LocateMe/blob/master/LICENSE)    [![GitHub stars](https://img.shields.io/github/stars/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=FFFF00&label=STARS&maxAge=2592000)](https://GitHub.com/v1s1t0r999/LocateMe/stargazers/)    [![GitHub issues](https://img.shields.io/github/issues/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=FF0000)](https://GitHub.com/v1s1t0r999/LocateMe/issues/)    [![GitHub pull-requests](https://img.shields.io/github/issues-pr/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=blueviolet)](https://GitHub.com/v1s1t0r999/LocateMe/pull/)    [![Support Server](https://img.shields.io/discord/819085006978023475.svg?label=Discord&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/5FtvrR3ryG)    ![REPO SIZE](https://img.shields.io/github/repo-size/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=9cf&label=REPO-WEIGHT&maxAge=2592000)    ![visitors](https://estruyf-github.azurewebsites.net/api/VisitorHit?user=v1s1t0r999&repo=LocateMe&countColorcountColor&countColor=%237B1E7A)
 
-**| AN [![Open Source Love png3](https://badges.frapsoft.com/os/v3/open-source.png?v=103?style=for-the-badge&color=ff69b4)](https://github.com/v1s1t0r999/LocateMe) PROJECT  |**  
-
 
 Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
 #
@@ -65,6 +63,12 @@ A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `
 2. Email At: [aditya.funs.11@gmail.com]
 3. Github: <https://github.com/v1s1t0r999>
 #
+***<p align="center">An Open Source Project gets More Good Lucks than a Paid Project ~ My Belief</p>***
+<p align="center">
+  <a href="#">
+      <img width="500" src="https://badges.frapsoft.com/os/v3/open-source.png?v=103?style=for-the-badge&color=ff69b4" />
+   </a>
+</p>
 
 ###
 ```
