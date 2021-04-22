@@ -14,9 +14,13 @@ If u have some doubt, Please 'DO NOT' create an Issue, instead ask your doubt in
 2. ``` cd LocateMe ```
 3. ``` python3 SETUP.py ```
 4. ``` python3 LocateMe.py```
+ 
+For the Ones who don't have Python3.5+ installed,
+1. ```apt-get install -y python3```
+
 ##
 ## :outbox_tray: Updates :outbox_tray:
-If you want to request a feature, do so by submitting a Pull Request only.
+If you want to request a feature, do so by submitting a Pull Request or suggesting it at `#common-text-channel` at our [Discord Server].
 
 **Future Updates May Include:**
 - **Find Your Victim's IPv4(if you don't know).**
@@ -39,14 +43,17 @@ All contributions are welcomed! Code, documentation, graphics or even design sug
 - ***Also you'll be gifted a "Virtual Voice Assistant"(like Iron-Man's FRIDAY, but on your PC, not in a suit!!) from us.***
 ##
 ## :warning: Requirements :warning:
-A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `LocateMe` needs some tools and modules to work:
+A Linux-based operating system. We recommend or Kali 2020.x or later (rolling edition). `LocateMe` needs some tools and modules to work:
   - `Python3.5+`(May work on older versions)
   - `Selenium Module`
-  - `geckodriver` (Gets cloned with the repo)
+  - `geckodriver binary` (Gets cloned with the repo)
   - `Xterm` (Support for gnome-terminal will come in future updates)
   - `FigLet` (Needed for those amazing Ascii's)
   - `Lolcat` (Needed to give an awesome look to the Ascii's)
   - `wmctrl`
+
+To install these tools manually, execute:
+- ```apt-get install python3 xterm lolcat figlet wmctrl && pip install selenium && wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz && tar -xvf geckodriver-v0.29.1-linux32.tar.gz && mv geckodriver /usr/local/bin && rm geckodriver-v0.29.1-linux32.tar.gz```
 
 **Nevertheless, `LocateMe` will automatically check and install these tools on startup😄**
 
