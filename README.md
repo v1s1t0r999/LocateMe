@@ -37,17 +37,18 @@ Be sure to check out the Changelog <https://github.com/v1s1t0r999/LocateMe/CHANG
 ## :moneybag: How to contribute :moneybag:
 All contributions are welcomed! Code, documentation, graphics or even design suggestions are welcomed; use GitHub to its fullest. Submit pull requests, contribute tutorials or other wiki content -- whatever you have to offer, it would be appreciated!
 *** ***
-- Donate: <<LINK-TO-BE-MADE>>  
+- Donate: << LINK-TO-BE-MADE >>  
 - ***Also you'll be gifted a "Virtual Voice Assistant" from us.***
 ##
 ## :warning: Requirements :warning:
 A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `LocateMe` needs some tools and modules to work:
-  - `Python3.5+`
+  - `Python3.5+`(May work on older versions)
   - `Selenium Module`
+  - `geckodriver` (Gets cloned with the repo)
   - `Xterm` (Support for gnome-terminal will come in future updates)
   - `FigLet` (Needed for those amazing Ascii's)
   - `Lolcat` (Needed to give an awesome look to the Ascii's)
-  - `wmctrl Module`
+  - `wmctrl`
 
 **Nevertheless, `LocateMe` will automatically check and install these tools on startup😄**
 
@@ -55,7 +56,7 @@ A Linux-based operating system. We recommend or Kali 2020.x (rolling edition). `
 ##
 ## :octocat: Credits :octocat:
 1. Author: UNKNOWN(Me) <https://github.com/v1s1t0r999>
-2. Inspired by: @thelinuxchoice
+2. Inspired by: @thelinuxchoice (_NOT COPIED AT ALL_)
 ##
 ## :phone: Contact Us :phone:
 
