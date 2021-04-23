@@ -20,7 +20,7 @@ For the Ones who don't have Python3.5+ installed,
 
 ##
 ## :outbox_tray: Updates :outbox_tray:
-If you want to request a feature, do so by submitting a Pull Request or suggesting it at `#common-text-channel` at our [Discord Server].
+If you want to request a feature, do so by submitting a Pull Request or suggesting it at `#common-text-channel` at our [Discord Server](https://discord.gg/5FtvrR3ryG).
 
 **Future Updates May Include:**
 - **Find Your Victim's IPv4(if you don't know).**
