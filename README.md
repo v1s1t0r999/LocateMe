@@ -42,7 +42,7 @@ All contributions are welcomed! Code, documentation, graphics or even design sug
 - ***Also you'll be gifted a "Virtual Voice Assistant"(like Iron-Man's FRIDAY, but on your PC, not in a suit!!) from us.***
 ##
 ## :warning: Requirements :warning:
-A Linux-based operating system. We recommend [![KALI](https://img.shields.io/badge/Kali%20Linux-000000?style=for-the-badge&logo=kali-linux&labelColor=000000&logoColor=F00000&logoWidth=15)](https://kali.org) or later (rolling edition). `LocateMe` needs some tools and modules to work:
+A Linux-based operating system. We recommend [![KALI](https://img.shields.io/badge/Kali%20Linux%202020.x-000000?style=for-the-badge&logo=kali-linux&labelColor=000000&logoColor=F00000&logoWidth=15)](https://kali.org) or later (rolling edition). `LocateMe` needs some tools and modules to work:
   - `Python3.5+`(May work on older versions)
   - [![Selenium](https://img.shields.io/badge/SELENIUM-Python-grey?style=for-the-badge&label=Selenium&logo=selenium&maxAge=2592000&color=000000)](https://www.selenium.dev/)
   - `geckodriver binary` (Gets cloned with the repo)
