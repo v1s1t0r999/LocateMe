@@ -1,5 +1,5 @@
 # LocateMe
-[![version](https://img.shields.io/badge/Version-1.0.0-blue.svg?labelColor=000039&logo=GitHub&logoColor=FFFFFF&style=for-the-badge&color=000000)](https://github.com/v1s1t0r999/LocateMe/releases/tag/v1.0.0)    [![made-with-python](https://img.shields.io/badge/PURE-PYTHON3.5+-blue.svg?logoColor=009999&style=for-the-badge&labelColor=000000&logo=python&color=00009F)](https://www.python.org/)    [![GitHub license](https://img.shields.io/github/license/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=orange&labelColor=000000&logo=data:image/svg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBgg&logoHeight=14)](https://github.com/v1s1t0r999/LocateMe/blob/master/LICENSE)    [![GitHub stars](https://img.shields.io/github/stars/v1s1t0r999/LocateMe.svg?style=for-the-badge&labelColor=000000&color=FFFF00&logo=riseup&label=STARS&maxAge=2592000)](https://GitHub.com/v1s1t0r999/LocateMe/stargazers/)    [![GitHub issues](https://img.shields.io/github/issues/v1s1t0r999/LocateMe.svg?style=for-the-badge&labelColor=000000&color=FF0000)](https://GitHub.com/v1s1t0r999/LocateMe/issues/)    [![GitHub pull-requests](https://img.shields.io/github/issues-pr/v1s1t0r999/LocateMe.svg?style=for-the-badge&labelColor=000000&logo=pingup&color=806738)](https://GitHub.com/v1s1t0r999/LocateMe/pull/)    [![Discord Server](https://img.shields.io/discord/819085006978023475.svg?label=Discord&labelColor=000000&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/5FtvrR3ryG)    [![GitHub Release Date](https://img.shields.io/badge/DATE-01%20April%20'21-blue?style=for-the-badge&labelColor=000000&label=REALESED%20ON&message=April%201%2021&color=61FF9E)](https://github.com/v1s1t0r999/LocateMe)    ![REPO SIZE](https://img.shields.io/github/repo-size/v1s1t0r999/LocateMe?style=for-the-badge&labelColor=000000&color=005A00&label=REPO%20SIZE&maxAge=2592000)    [![OS](https://img.shields.io/badge/Recommend%20OS-Debian%20Based-red.svg?style=for-the-badge&logoColor=FF0000&color=5F0000&labelColor=000000&logo=Debian&maxAge=2592000)](https://www.debian.org/)    ![visitors](https://estruyf-github.azurewebsites.net/api/VisitorHit?user=v1s1t0r999&repo=LocateMe&countColorcountColor&countColor=%237B1E7A&logo=Github&logoColor=FFFFFF&labelColor=000000)
+[![version](https://img.shields.io/badge/Version-1.0.0-blue.svg?labelColor=000039&logo=google-maps&logoColor=FFFFFF&style=for-the-badge&color=000000)](https://github.com/v1s1t0r999/LocateMe/releases/tag/v1.0.0)    [![made-with-python](https://img.shields.io/badge/PURE-PYTHON3.5+-blue.svg?logoColor=009999&style=for-the-badge&labelColor=000000&logo=python&color=00009F)](https://www.python.org/)    [![GitHub license](https://img.shields.io/github/license/v1s1t0r999/LocateMe.svg?style=for-the-badge&color=orange&labelColor=000000&logo=data:image/svg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAIBAQEBAQIBAQECAgICAgQDAgICAgUEBAMEBgUGBgYFBgYGBwkIBgcJBwYGCAsICQoKCgoKBgg&logoHeight=14)](https://github.com/v1s1t0r999/LocateMe/blob/master/LICENSE)    [![GitHub stars](https://img.shields.io/github/stars/v1s1t0r999/LocateMe.svg?style=for-the-badge&labelColor=000000&color=FFFF00&logo=riseup&label=STARS&maxAge=2592000)](https://GitHub.com/v1s1t0r999/LocateMe/stargazers/)    [![GitHub issues](https://img.shields.io/github/issues/v1s1t0r999/LocateMe.svg?style=for-the-badge&labelColor=000000&color=FF0000)](https://GitHub.com/v1s1t0r999/LocateMe/issues/)    [![GitHub pull-requests](https://img.shields.io/github/issues-pr/v1s1t0r999/LocateMe.svg?style=for-the-badge&labelColor=000000&logo=pingup&color=806738)](https://GitHub.com/v1s1t0r999/LocateMe/pull/)    [![Discord Server](https://img.shields.io/discord/819085006978023475.svg?label=Discord&labelColor=000000&logo=Discord&colorB=7289da&style=for-the-badge)](https://discord.gg/5FtvrR3ryG)    [![GitHub Release Date](https://img.shields.io/badge/DATE-01%20April%20'21-blue?style=for-the-badge&labelColor=000000&label=REALESED%20ON&message=April%201%2021&logo=Github&color=61FF9E)](https://github.com/v1s1t0r999/LocateMe)    ![REPO SIZE](https://img.shields.io/github/repo-size/v1s1t0r999/LocateMe?style=for-the-badge&labelColor=000000&color=005A00&&logoColor=FFFFFF&logo=apache&label=REPO%20SIZE&maxAge=2592000)    [![OS](https://img.shields.io/badge/Recommend%20OS-Debian%20Based-red.svg?style=for-the-badge&logoColor=FF0000&color=5F0000&labelColor=000000&logo=Debian&maxAge=2592000)](https://www.debian.org/)    ![visitors](https://estruyf-github.azurewebsites.net/api/VisitorHit?user=v1s1t0r999&repo=LocateMe&countColorcountColor&countColor=%237B1E7A&logo=Github&logoColor=FFFFFF&labelColor=000000)
 
 Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and more...**
 #
@@ -42,9 +42,9 @@ All contributions are welcomed! Code, documentation, graphics or even design sug
 - ***Also you'll be gifted a "Virtual Voice Assistant"(like Iron-Man's FRIDAY, but on your PC, not in a suit!!) from us.***
 ##
 ## :warning: Requirements :warning:
-A Linux-based operating system. We recommend or Kali 2020.x or later (rolling edition). `LocateMe` needs some tools and modules to work:
+A Linux-based operating system. We recommend [![KALI](https://img.shields.io/badge/Kali%20Linux-000000?style=for-the-badge&logo=kali-linux&labelColor=000000&logoColor=F00000&logoWidth=15)](https://kali.org) or later (rolling edition). `LocateMe` needs some tools and modules to work:
   - `Python3.5+`(May work on older versions)
-  - `Selenium Module`![Selenium](https://img.shields.io/badge/SELENIUM-%20-grey?style=for-the-badge&label=%20&logo=selenium&maxAge=2592000)
+  - [![Selenium](https://img.shields.io/badge/SELENIUM-Python-grey?style=for-the-badge&label=Selenium&logo=selenium&maxAge=2592000&color=000000)](https://www.selenium.dev/)
   - `geckodriver binary` (Gets cloned with the repo)
   - `Xterm` (Support for gnome-terminal will come in future updates)
   - `FigLet` (Needed for those amazing Ascii's)
@@ -52,7 +52,7 @@ A Linux-based operating system. We recommend or Kali 2020.x or later (rolling ed
   - `wmctrl`
 
 To install these tools manually, execute:
-- ```apt-get install python3 xterm lolcat figlet wmctrl && pip install selenium ```
+- ```apt-get install xterm lolcat figlet wmctrl && pip install selenium ```
 
 And if, by chance, there's an error with geckodriver, execute:
 - ```wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz && tar -xvf geckodriver-v0.29.1-linux32.tar.gz && mv geckodriver /usr/local/bin && rm geckodriver-v0.29.1-linux32.tar.gz```
@@ -72,7 +72,7 @@ And if, by chance, there's an error with geckodriver, execute:
 2. Email At: [aditya.funs.11@gmail.com]
 3. Github: <https://github.com/v1s1t0r999>
 #
-***<p align="center">An Open Source Project gets More Good Lucks than a Paid Project( ⁰͡ Ĺ̯ ⁰͡ )</p>***
+***<p align="center">An Open Source Project gets More Good Lucks than a Paid Project ~ ( ⁰͡ Ĺ̯ ⁰͡ )</p>***
 <p align="center">
   <a href="#">
       <img width="500" src="https://badges.frapsoft.com/os/v3/open-source.png?v=103?style=for-the-badge&color=ff69b4" />
