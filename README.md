@@ -10,6 +10,8 @@ Get Your Victim's **Country, City, Public IP, Organization, Co-ordinates and mor
 #
 If u have some doubt, Please 'DO NOT' create an Issue, instead ask your doubt in the [Discussion Section](https:/github.com/v1s1t0r999/LocateMe/discussions) OR in our [Discord Server](https://discord.gg/5FtvrR3ryG). And be sure to mark the one’s comment as an answer if it helps you in resolving your question — they deserve the damn credit!! :tada:  
 ##
+**Termux or Kali Nethunter is not yet supported, but will be in Future Updats**
+##
 ### Also, Do join our Discord server: <https://discord.gg/5FtvrR3ryG> 
 # :zap: Usage :zap:
 1. ``` git clone https://github.com/v1s1t0r999/LocateMe```
