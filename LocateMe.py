@@ -66,7 +66,7 @@ def StartAnim():
 	print("\n")
 	time.sleep(1)
 	Ascii()
-
+#1
 def Ascii():
 	try:
 		print("\033[0m")
