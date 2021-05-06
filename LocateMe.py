@@ -2,7 +2,7 @@
 
 # Author: @v1s1t0r999
 # GREATLY INSPIRED FROM @thelinuxchoice
-# Repo: LocateMe v1.0.0
+# Repo: LocateMe v1.0.2
 
 # I need your help Users, please see the Credits option in LocateMe for more.
 
@@ -36,7 +36,7 @@ width = os.get_terminal_size().columns
 author = "@v1s1t0r999"
 secs = ['1', '2', '3']
 RESET = "\033[0m"
-version = (str("v1.0.0"))
+version = (str("v1.0.2"))
 now = datetime.now()
 date = now.strftime("%d/%m/%y @ %H:%M")
 
@@ -83,7 +83,7 @@ def Ascii():
 		print("\033[1;91m || I'M GONNA FIND YOU FROM THAT BASEMENT TOO || \033[0m".center(width))
 		print(" ")
 		print(" ")
-		# ISSUE 1 of v1.0.0
+		# ISSUE #1
 		path = os.getcwd()
 		if os.path.exists(path+"/geckodriver"):
 			os.system("sudo mv geckodriver /usr/local/bin")
@@ -95,7 +95,7 @@ def Ascii():
 			os.system("sudo rm geckodriver-v0.29.1-linux32.tar.gz")
 			os.system("sudo mv geckodriver /usr/local/bin")
 			NetCheck()
-		# ISSUE 1 FIXED v1.0.0
+		# ISSUE #1
 		NetCheck()
 
 	except Exception as e:
