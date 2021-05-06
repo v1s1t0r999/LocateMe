@@ -1,32 +1,40 @@
+# SETUP file for LocateMe
+# LocateMe v1.0.2
+# Author: @v1s1t0r999
+# Begging y'all to not to copy this and main script...
+
 import os
 import time
 from datetime import datetime
 
 now = datetime.now()
 date = now.strftime("%d/%m/%y @ %H:%M")
+version = "v1.0.2"
 
 def osCheck():
+    print("{*} CHECKING OPERATING SYSTEM...")
+    time.sleep(2)
     ck = os.name
     if ck == "posix":
         print("{+} Linux OS Found, Script can continue...")
         selenium()
 
     elif ck == "nt":
-        print("{!} Windows OS found, Script can't continue")
-        print("{+} Support for Windows will be available in future updates")
+        print("{-} Windows OS found, Script can't continue")
+        print("{!} Support for Windows will be available in future updates")
         quit()
     elif ck == "osx":
-        print("{!} OSX found, Script can't continue")
+        print("{-} OSX found, Script can't continue")
         quit()
     else:
-        print("{!} Unknown OS, Script can't continue")
+        print("{-} Unknown OS, Script can't continue")
         quit()
 
 
 def selenium():
     try:
         from selenium import webdriver
-        print("{+} Selenium is installed!!")
+        print("{+} Selenium Webdriver is installed!!")
         main()
     except ImportError as e:
         # print(e)
@@ -37,7 +45,7 @@ def selenium():
         ask = input("{?} Do you want to install Selenium Now \n    [Y/N]: ")
         if ask == "Y"or"y":
             print("{*} Installing Selenium...")
-            os.system("xterm pip install selenium")
+            os.system("sudo pip install selenium > /dev/null 2>&1")
             main()
         elif ask == "N"or"n":
             print("{!} LocateMe loves Selenium, LocateMe cannot work without it!!")
@@ -69,14 +77,18 @@ def selenium():
 
 def main():
     print("\n {*} Installing Dependencies...")
-    os.system("apt-get install lolcat figlet xterm wmctrl && pip install selenium")
+    os.system("sudo apt-get install -y lolcat figlet xterm wmctrl > /dev/null 2>&1 && pip install selenium > /dev/null 2>&1")
+    print("\033[1m{+} All Dependencies Installed\033[0m")
+    os.system("sudo mkdir /$HOME/.locateMe")
+    os.system("sudo touch /$HOME/.locateMe/config")
+    dirc = "/$HOME/.locateMe/config"
+    f = open(dirc,"w")
+    data = "LocateMe ~"+str(version)+"\nAuthor: @v1s1t0r999\n \nLINUX OS\nSelenium Installed\nLolcat Installed\nFigLet Installed\nXterm Installed\nWmctrl Installed\n \nSETUP.py"
+    f.write(data)
+    f.close()
     ASK = input("\033[1m{?} START LocateMe [Y/N]: \033[0m")
     if ASK == "Y"or"y":
-        os.system("python3 LocateMe.py")
-        quit()
-    elif ASK == "N"or"n":
-        print("{*} Exiting...")
-        time.sleep(2)
+        os.system("sudo python3 LocateMe.py")
         quit()
     
     else:
@@ -86,4 +98,10 @@ def main():
 
 
 if __name__ == "__main__":
+    if not os.path.exists("/$HOME/.locateMe/config"):
+        print("{!} LocateMe Configuration file exists!!")
+        pass
+    else:
+        pass
     osCheck()
+
