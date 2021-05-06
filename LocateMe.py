@@ -71,8 +71,7 @@ def Ascii():
 	try:
 		print("\033[0m")
 		os.system("clear")
-		os.system("xterm -e 'figlet Updating && apt-get install figlet lolcat && pip install selenium'")
-		os.system("figlet -w "+str(width)+" -c -f mono12 LocateMe | lolcat")
+		os.system("sudo figlet -w "+str(width)+" -c -f mono12 LocateMe | lolcat")
 		print("\033[;1m      /==========================================================================\ \033[1;0m".center(width))
 		print("\033[;1m                   /                  \033[1;34m <https://github.com/v1s1t0r999/LocateMe> \033[;1m                \ \033[1;0m".center(width))
 		print("\033[;1m       /==============================================================================\ \033[1;0m".center(width))
@@ -84,17 +83,20 @@ def Ascii():
 		print("\033[1;91m || I'M GONNA FIND YOU FROM THAT BASEMENT TOO || \033[0m".center(width))
 		print(" ")
 		print(" ")
+		# ISSUE 1 of v1.0.0
 		path = os.getcwd()
 		if os.path.exists(path+"/geckodriver"):
-			os.system("cp geckodriver /usr/local/bin /dev/null")
+			os.system("sudo mv geckodriver /usr/local/bin")
 			NetCheck()
-		else:
-			os.system("wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz /dev/null")
-			os.system("tar -xvf geckodriver-v0.29.1-linux32.tar.gz dev/null")
-			os.system("rm geckodriver-v0.29.1-linux32.tar.gz")
-			os.system("cp geckodriver /usr/local/bin /dev/null")
+		if not os.path.exists("/usr/local/bin/geckodriver"):
+			print("\033[1;92m{\033[1;93m!\033[1;92m}\033[1m;95mCannot find geckodriver, Downloading...")
+			os.system("sudo wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz > /dev/null 2>&1")
+			os.system("sudo tar -xvf geckodriver-v0.29.1-linux32.tar.gz > /dev/null 2>&1")
+			os.system("sudo rm geckodriver-v0.29.1-linux32.tar.gz")
+			os.system("sudo mv geckodriver /usr/local/bin")
 			NetCheck()
-		#NetCheck()
+		# ISSUE 1 FIXED v1.0.0
+		NetCheck()
 
 	except Exception as e:
 		f = open('ErrorLogs.log', 'a')
@@ -102,6 +104,7 @@ def Ascii():
 		f.close()
 		print("\033[1;91m{!} An Unexpected Error Occured...")
 		#print(e)
+		os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
 		quit()
 
 def NetCheck():
@@ -120,6 +123,7 @@ def NetCheck():
 		print("\033[1;92m{\033[1;93m!\033[1;92m}\033[1;91m Script can't continue")
 		print("\033[1;92m{\033[1;93m*\033[1;92m}\033[1m Exiting...")
 		time.sleep(2)
+		os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
 		quit()
 
 def main():
@@ -130,6 +134,7 @@ def main():
 	print('|| [\033[1;95m4\033[0m\033[1m] >> Credits')
 	print("|| [\033[1;95m5\033[0m\033[1m] >> License")
 	print("|| [\033[1;95m6\033[0m\033[1m] >> Contact Us")
+	print("|| [\033[1;95m95\033[0m\033[1m] >> Check for Updates")
 	print("|| [\033[1;95m99\033[0m\033[1m] >> Exit")
 	print(" ")
 	ask = input("\033[1;92m{\033[1;93m?\033[1;92m} \033[1;96mOption: \033[1;91m\033[1m")
@@ -150,7 +155,7 @@ def main():
 		print("")
 		i6v4 = input("\033[1;92m{\033[1;93m?\033[1;92m} \033[1;96mOption: \033[1;91m\033[1m")
 		if i6v4 == "1":
-			ipv4 = subprocess.check_output(["curl","ifconfig.me/ip"])
+			ipv4 = urllib.request.urlopen('https://ifconfig.me').read().decode('utf8')
 			time.sleep(0.5)
 			print("\033[1;92m{\033[1;93m*\033[1;92m} \033[1;95mProcessing...\033[0m")
 			time.sleep(1.5)
@@ -160,11 +165,11 @@ def main():
 			time.sleep(3)
 			goAsk()
 		elif i6v4 == "2":
-			external_ipv6 = urllib.request.urlopen('https://ident.me').read().decode('utf8')
+			external_ipv6 = urllib.request.urlopen('https://ipv6.icanhazip.com').read().decode('utf8')
 			time.sleep(0.5)
 			print("\033[1;92m{\033[1;93m*\033[1;92m} \033[1;95mProcessing...\033[0m")
 			time.sleep(1.5)
-			print("\033[1;92m{\033[1;93m+\033[1;92m} \033[1;96mFound Your Public IPv6: \033[1;91m"+external_ipv6)
+			print("\033[1;92m{\033[1;93m+\033[1;92m} \033[1;96mFound Your Public IPv6: \033[1;91m"+str(external_ipv6))
 			print(RESET)
 			time.sleep(3)
 			goAsk()
@@ -189,10 +194,10 @@ def main():
 		print("\033[1;92m{\033[1;93m*\033[1;92m} \033[1;96mRedirecting to Github.com, please wait!!")
 		time.sleep(2)
 		if ask == "M":
-			webbrowser.open("https://github.com/v1s1t0r999/LocateMe/stargazers")
+			os.system("sudo xdg-open https://github.com/v1s1t0r999/LocateMe/stargazers")
 			Ascii()
 		else:
-			webbrowser.open("https://github.com/v1s1t0r999/LocateMe")
+			os.system("sudo xdg-open https://github.com/v1s1t0r999/LocateMe")
 			Ascii()
 
 	elif ask == "4":
@@ -230,7 +235,7 @@ def main():
 		goAsk()
 
 	elif ask == "6":
-		print('\033[1;95m|| "XploitMe" \033[1;90m~ '+version+' ||')
+		print('\033[1;95m|| "LocateMe" \033[1;90m~ '+version+' ||')
 		print("")
 		print("\033[1mAuthor\033[1;90m: \033[1;96m@v1s1t0r999")
 		print("")
@@ -241,11 +246,34 @@ def main():
 		print(RESET)
 		goAsk()
 
+	elif ask == "95":
+		time.sleep(2)
+		print('\033[;1m{*} Checking for updates...\033[0m')
+		ver_url = 'https://raw.githubusercontent.com/v1s1t0r999/LocateMe/main/.versionFile'
+		try:
+			ver_rqst = requests.get(ver_url)
+			ver_sc = ver_rqst.status_code
+			if ver_sc == 200:
+				github_ver = ver_rqst.text
+				github_ver = github_ver.strip()
+				if github_ver == version:
+					print('{+} LocateMe is in its latest version: '+str(version)+'\n')
+					time.sleep(2)
+					goAsk()
+				else:
+					print('{+} Update Available: LocateMe '+str(github_ver)+'\n')
+					goAsk()
+	
+			else:
+				print('{*} Current Version: '+str(version)+'\n')
+				goAsk()
+
 	elif ask == '99':
 		time.sleep(2)
 		et = input("\033[1;92m{\033[1;93m?\033[1;92m} \033[1;95mSure to Exit??\n    [Y/N]: ")
 		if et == 'Y'or'y':
 			print('\033[1;92m{\033[1;93m*\033[1;92m} \033[1;95mExiting')
+			os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
 			quit()
 		elif et == 'N'or'n':
 			print("\033[1;92m{\033[1;91m!\033[1;92m} \033[1;95mAbortion Terminated...")
@@ -264,7 +292,7 @@ def findIP():
 		print(RESET)
 		os.system("clear")
 		os.system("figlet -w "+str(width)+" -c ! Locator is here ! | lolcat")
-		print("===========================================================================================".center(width))
+		print("<===========================================================================================>".center(width))
 		print("")
 		print("\033[1;92m{\033[1;93m*\033[1;93m} \033[1;95m Please Wait, Loading the script...")
 		print(" ")
@@ -279,7 +307,7 @@ def findIP():
 		# Note
 		time.sleep(4)
 		print("\033[1;92m{\033[1;93m+\033[1;92m}\033[1;95m You can now Locate someone from his Domain Name (Eg: github.com) Too!!")
-		print("\033[1;92m{\033[1;91m!\033[1;92m}\033[1;95m \033[1;92mLocateMe will give the results from where the IPv4/IPv6/Domain Name is Hosted from!!")
+		print("\033[1;92m{\033[1;91m!\033[1;92m}\033[1;95m \033[1;92mLocateMe will give the results from where the Domain is Hosted from!!")
 		print("")
 		IPinput = input("\033[1;92m{\033[1;93m?\033[1;92m} \033[0;96mIPv4/IPv6/Domain: ")
 		sBox = driver.find_element_by_xpath("/html/body/main/section[1]/div/div/div[1]/form/div/div[1]/div/input")
@@ -367,6 +395,7 @@ def findIP():
 		f.close()
 		print("\n\033[1;92m{\033[1;93m!\033[1;92m} \033[1;96mRun-Time Interruption...")
 		driver.quit()
+		os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
 		quit()
 	except NoSuchElementException as ne:
 		f = open('ErrorLogs.log', 'a')
@@ -379,7 +408,9 @@ def findIP():
 
 
 if __name__ == "__main__":
-	os.system("wmctrl -r ':ACTIVE:' -b toggle,fullscreen /dev/null")
+	os.system("sudo xterm -e 'figlet Updating && apt-get install figlet lolcat && pip install selenium'")
+	os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
+	time.sleep(1)
 	try:
 		StartAnim()
 
@@ -396,4 +427,5 @@ if __name__ == "__main__":
 		time.sleep(2)
 		print("\033[1;92m{\033[1;93m*\033[1;92m} \033[1;96mExiting...")
 		time.sleep(3)
+		os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
 		quit()
