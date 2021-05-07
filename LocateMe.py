@@ -269,10 +269,10 @@ def main():
 				goAsk()
 
                 except Exception as e:
-		f = open('ErrorLogs.log', 'a')
-		f.write("\n["+str(date)+"] >> "+str(e)+".")
-		f.close()
-                pass
+		        f = open('ErrorLogs.log', 'a')
+		        f.write("\n["+str(date)+"] >> "+str(e)+".")
+		        f.close()
+                        pass
 
 	elif ask == '99':
 		time.sleep(2)
