@@ -1,6 +1,6 @@
 ---
 name: Issue Template.md
-about: Encountered an Issue??? TELL US!!!
+about: Follow this Template!!
 title: 'Option#X: Error'
 labels: Error
 ---
