@@ -268,6 +268,12 @@ def main():
 				print('{*} Current Version: '+str(version)+'\n')
 				goAsk()
 
+                except Exception as e:
+		        f = open('ErrorLogs.log', 'a')
+		        f.write("\n["+str(date)+"] >> "+str(e)+".")
+		        f.close()
+                        pass
+
 	elif ask == '99':
 		time.sleep(2)
 		et = input("\033[1;92m{\033[1;93m?\033[1;92m} \033[1;95mSure to Exit??\n    [Y/N]: ")
