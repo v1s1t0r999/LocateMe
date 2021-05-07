@@ -1,6 +1,7 @@
 # SETUP file for LocateMe
 # LocateMe v1.0.2
 # Author: @v1s1t0r999
+# Improved PR: @whydee
 # Begging y'all to not to copy this and main script...
 
 import os
