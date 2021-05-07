@@ -79,9 +79,10 @@ def main():
     print("\n {*} Installing Dependencies...")
     os.system("sudo apt-get install -y lolcat figlet xterm wmctrl > /dev/null 2>&1 && pip install selenium > /dev/null 2>&1")
     print("\033[1m{+} All Dependencies Installed\033[0m")
-    os.system("sudo mkdir $HOME/.locateMe")
-    os.system("sudo touch $HOME/.locateMe/config")
-    dirc = "$HOME/.locateMe/config"
+    os.system("mkdir $HOME/.locateMe")
+    os.system("touch $HOME/.locateMe/config")
+    home = os.path.expanduser('~')
+    dirc = home + "/.locateMe/config"
     f = open(dirc,"w")
     data = "LocateMe ~"+str(version)+"\nAuthor: @v1s1t0r999\n \nLINUX OS\nSelenium Installed\nLolcat Installed\nFigLet Installed\nXterm Installed\nWmctrl Installed\n \nSETUP.py"
     f.write(data)
