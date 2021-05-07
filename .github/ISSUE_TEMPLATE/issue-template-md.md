@@ -3,13 +3,11 @@ name: Issue Template.md
 about: Encountered an Issue??? TELL US!!!
 title: 'Option#X: Error'
 labels: Error
-assignees: ''
-
 ---
 
-**Name the issue as:** _OptionNumber: Error_ [`Option#2: Unexpected Error Occurred`]
+**Name the issue as:** _OptionNumber: Error_ Eg:[`Option#2: Unexpected Error Occurred`]
 
-**`ErrorLog.log`'s Content: **
+`ErrorLog.log`**'s Content: **
 _[DATE@TIME]: ERROR_
 
 **Where did it take place?**
