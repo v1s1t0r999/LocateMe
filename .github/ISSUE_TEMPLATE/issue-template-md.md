@@ -1,8 +1,8 @@
 ---
-Name: Issue Template.md
-About: Encountered an Issue??? TELL US!!!
-Title: 'Option#X: Error'
-Labels: Error
+name: Issue Template.md
+about: Encountered an Issue??? TELL US!!!
+title: 'Option#X: Error'
+labels: Error
 ---
 
 **Name the issue as:** _OptionNumber: Error_ Eg:[`Option#2: Unexpected Error Occurred`]
