@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
 # Author: @v1s1t0r999
+# Co-Authors: @whydee86
 # GREATLY INSPIRED FROM @thelinuxchoice
 # Repo: LocateMe v1.0.2
 
@@ -87,6 +88,7 @@ def Ascii():
 		path = os.getcwd()
 		if os.path.exists(path+"/geckodriver"):
 			os.system("sudo mv geckodriver /usr/local/bin")
+			os.system("sudo chmod +x /usr/local/bin/geckodriver")
 			NetCheck()
 		if not os.path.exists("/usr/local/bin/geckodriver"):
 			print("\033[1;92m{\033[1;93m!\033[1;92m}\033[1m;95mCannot find geckodriver, Downloading...")
@@ -94,6 +96,7 @@ def Ascii():
 			os.system("sudo tar -xvf geckodriver-v0.29.1-linux32.tar.gz > /dev/null 2>&1")
 			os.system("sudo rm geckodriver-v0.29.1-linux32.tar.gz")
 			os.system("sudo mv geckodriver /usr/local/bin")
+			os.system("sudo chmod +x /usr/local/bin/geckodriver")
 			NetCheck()
 		# ISSUE #1
 		NetCheck()
@@ -268,11 +271,11 @@ def main():
 				print('{*} Current Version: '+str(version)+'\n')
 				goAsk()
 
-                except Exception as e:
-		        f = open('ErrorLogs.log', 'a')
-		        f.write("\n["+str(date)+"] >> "+str(e)+".")
-		        f.close()
-                        pass
+		except Exception as e:
+			f = open('ErrorLogs.log', 'a')
+			f.write("\n["+str(date)+"] >> "+str(e)+".")
+			f.close()
+			pass
 
 	elif ask == '99':
 		time.sleep(2)
