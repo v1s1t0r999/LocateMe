@@ -24,7 +24,7 @@ For the Ones who don't have Python3.5+ installed,
 
 ##
 ## :outbox_tray: Updates :outbox_tray:
-If you want to request a feature, do so by submitting a [Pull Request](https://GitHub.com/v1s1t0r999/LocateMe/pull/) or suggesting it at `#common-text-channel` at our [Discord Server](https://discord.gg/5FtvrR3ryG).
+If you want to request a feature, do so by submitting a [Pull Request](https://GitHub.com/v1s1t0r999/LocateMe/pull/) or suggesting it at `#feature-suggestion` at our [Discord Server](https://discord.gg/5FtvrR3ryG).
 
 **Future Updates May Include:**
 - **Find Your Victim's IPv4(if you don't know).**
@@ -60,15 +60,16 @@ To install these tools manually, execute:
 - ```apt-get install xterm lolcat figlet wmctrl && pip install selenium ```
 
 And if, by chance, there's an error with geckodriver, execute:
-- ```wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz && tar -xvf geckodriver-v0.29.1-linux32.tar.gz && mv geckodriver /usr/local/bin && rm geckodriver-v0.29.1-linux32.tar.gz```
+- ```sudo wget https://github.com/mozilla/geckodriver/releases/download/v0.29.1/geckodriver-v0.29.1-linux32.tar.gz && sudo tar -xvf geckodriver-v0.29.1-linux32.tar.gz && sudo mv geckodriver /usr/local/bin && sudo rm geckodriver-v0.29.1-linux32.tar.gz && sudo chmod +x /usr/local/bin/geckodriver```
 
 **Nevertheless, `LocateMe` will automatically check and install these tools on startup😄**
 
 
 ##
 ## :octocat: Credits :octocat:
-1. Author: UNKNOWN(Me) <https://github.com/v1s1t0r999>
-2. Inspired by: @thelinuxchoice (_NOT COPIED AT ALL_)
+1. Author: [@v1s1t0r999](https://github.com/v1s1t0r999)
+2. PRs: [@WhyDee86](https://github.com/whydee86)
+3. Inspired by: @thelinuxchoice (_NOT COPIED AT ALL_)
 ##
 ## :phone: Contact Us :phone:
 
