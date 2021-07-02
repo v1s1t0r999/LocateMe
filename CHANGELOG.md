@@ -1,5 +1,9 @@
 # LocateMe Changelog
 
+### v1.0.3 [02/07/21]
+  * As Promised, Added Virtual Aerial view
+  * Notifications Check
+
 ### v1.0.2 [06/05/21]
   * Fixed Issue [#1]
   * Fixed geckodriver's PATH problem.
