@@ -2,17 +2,7 @@
 
 # Author: @v1s1t0r999
 # GREATLY INSPIRED FROM @thelinuxchoice
-# Repo: LocateMe v1.0.2
-
-# I need your help Users, please see the Credits option in LocateMe for more.
-
-"""
-With Love, from @v1s1t0r999:
-  I didn't like @thelinuxchoice writing "Don't copy the codes without giving me the credits nerd!!" in the starting of his every tool,
-  But its True, cause when you do so much but at the end, u get nothing except seeing others eating the credits of your hardwork.
-
-  THANKS A LOT @thelinuxchoice for a Precious Indirect Help.
-"""
+# Repo: LocateMe v1.0.3
 
 
 # Imports
@@ -21,6 +11,7 @@ import sys
 import time
 import random
 import requests
+import LogError
 import webbrowser
 import subprocess
 import urllib.request
@@ -36,7 +27,7 @@ width = os.get_terminal_size().columns
 author = "@v1s1t0r999"
 secs = ['1', '2', '3']
 RESET = "\033[0m"
-version = (str("v1.0.2"))
+version = str("v1.0.3")
 now = datetime.now()
 date = now.strftime("%d/%m/%y @ %H:%M")
 
@@ -99,9 +90,7 @@ def Ascii():
 		NetCheck()
 
 	except Exception as e:
-		f = open('ErrorLogs.log', 'a')
-		f.write("\n["+str(date)+"] >> "+str(e)+".")
-		f.close()
+		LogError.handle(file="ErrorLogs.log",error=e)
 		print("\033[1;91m{!} An Unexpected Error Occured...")
 		#print(e)
 		os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
@@ -116,9 +105,7 @@ def NetCheck():
 		print("")
 		main()
 	except (requests.ConnectionError, requests.Timeout) as exception:
-		f = open('ErrorLogs.log', 'a')
-		f.write("\n["+str(date)+"] >> "+str(exception)+".")
-		f.close()
+		LogError.handle("ErrorLogs.log",exception)
 		print("\033[1;92m{\033[1;93m!\033[1;92m}\033[1;91m No Internet Access, Please check your Internet connection...")
 		print("\033[1;92m{\033[1;93m!\033[1;92m}\033[1;91m Script can't continue")
 		print("\033[1;92m{\033[1;93m*\033[1;92m}\033[1m Exiting...")
@@ -269,9 +256,7 @@ def main():
 				goAsk()
 
                 except Exception as e:
-		        f = open('ErrorLogs.log', 'a')
-		        f.write("\n["+str(date)+"] >> "+str(e)+".")
-		        f.close()
+			LogError.handle("ErrorLogs.log",e)
                         pass
 
 	elif ask == '99':
@@ -387,18 +372,14 @@ def findIP():
 
 	except ConnectionError as ce:
 		#print(e)
-		f = open('ErrorLogs.log', 'a')
-		f.write("\n["+str(date)+"] >> "+str(e)+".")
-		f.close()
+		LogError.handle("ErrorLogs.log",ce)
 		print("\n\033[1;92m{\033[1;93m!\033[1;92m} \033[1;91mUnexpected Connection Error...")
 		print("\n\033[1;92m{\033[1;93m*\033[1;92m} \033[1;96mExiting...")
 		driver.quit()
 		time.sleep(1.5)
 		quit()
 	except KeyboardInterrupt as ke:
-		f = open('ErrorLogs.log', 'a')
-		f.write("\n["+str(date)+"] >> "+str(ke)+"Keyboard Interrupt.")
-		f.close()
+		LogError.handle("ErrorLogs.log",ke)
 		print("\n\033[1;92m{\033[1;93m!\033[1;92m} \033[1;96mRun-Time Interruption...")
 		driver.quit()
 		os.system("sudo wmctrl -r ':ACTIVE:' -b toggle,fullscreen")
